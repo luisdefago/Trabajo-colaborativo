@@ -235,7 +235,7 @@ a:hover {
     padding: 5px 15px;
 }
 
-.container {
+.container_contacto {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
