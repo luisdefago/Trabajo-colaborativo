@@ -140,3 +140,27 @@ a:hover {
     flex-direction: column;
     margin-left: 50px;
 }
+
+/*segunda parte */
+.container {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box {
+    display: flex;
+    margin: 10px;
+    width: 300px;
+}
+.box span {
+    background-color: #beb305;
+    color: white;
+    border-radius: 100%;
+    padding: 0px 10px 20px 10px;
+    max-height: 5px;
+    margin-right: 10px;
+}
+.box p{
+    margin-top: 20px;
+}
