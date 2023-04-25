@@ -178,3 +178,70 @@ a:hover {
 .box p{
     margin-top: 20px;
 }
+
+
+/* Contacto */
+
+.img_contacto {
+    max-height: 400px;
+}
+
+.contacto {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.contacto__izquierda {
+    padding-top: 105px;
+    min-height: 120%;
+    background-image: url(../assets/fondo_contacto.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacto__derecha {
+    padding: 80px 0 25px;
+    min-height: 120%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__titulo {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.contacto__texto {
+    font-size: 20px;
+    color: white;
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form>input {
+    margin: 20px;
+    padding: 5px 15px;
+}
+
+.nombre>input {
+    margin: 20px;
+    padding: 5px 15px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    background-color: #beb305;
+    color: white;
+}
