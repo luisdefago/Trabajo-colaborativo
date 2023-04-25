@@ -58,10 +58,17 @@ a:hover {
 .img-celu {
     height: 450px;
 }
-
+.img-pc {
+    height: 500px;
+}
 .portada {
     display: grid;
     grid-template-columns: 40% 60%;
+}
+.portada2 {
+    display:grid;
+    grid-template-columns: 38% 62%;
+    
 }
 
 .portada__derecha {
@@ -70,20 +77,20 @@ a:hover {
     padding: 100px;
 }
 
-.portada__derecha__titulo {
+.portada-titulo {
     color: white;
     font-size: 45px;
     margin-bottom: 30px;
 }
 
-.portada__derecha__texto {
+.portada-texto {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-bottom: 80px;
 }
 
-.portada__derecha__boton {
+.portada-boton {
     color: rgb(171, 171, 2);
     margin: 0 20px;
     padding: 15px;
@@ -92,7 +99,7 @@ a:hover {
     font-size: 20px;
 }
 
-.portada__derecha__boton:hover {
+.portada-boton:hover {
     background-color: white;
     color: black;
 }
@@ -113,7 +120,14 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.portada_abajo_derecha {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-image: url(../assets/fondo2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .info {
     margin-top: 90px;
     display: flex;
@@ -157,8 +171,8 @@ a:hover {
     background-color: #beb305;
     color: white;
     border-radius: 100%;
-    padding: 0px 10px 20px 10px;
-    max-height: 5px;
+    padding: 10px 10px 10px 10px;
+    max-height: 15px;
     margin-right: 10px;
 }
 .box p{
